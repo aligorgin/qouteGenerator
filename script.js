@@ -1,4 +1,4 @@
-// Get quote from api
+// Get quote from api 2
 async function getQuote() {
     const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
     const apiUrl = 'https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json';
