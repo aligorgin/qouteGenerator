@@ -58,7 +58,7 @@ body {
 .button--author{
     display: flex;
     justify-content: space-between;
-    padding: 0 87px;
+    padding: 0 87px 20px;
     position: relative;
     bottom: 8px;
 }
