@@ -29,9 +29,9 @@ body {
     display: block;
     position: relative;
     font-size: 6rem;
-    bottom: 79px;
+    bottom: 71px;
     text-align: initial;
-    left: 60px;
+    padding-left: 87px;
 }
 
 .quote--text {
@@ -51,15 +51,15 @@ body {
     font-style: italic;
     font-weight: initial;
     position: relative;
-    bottom: 10px;
+    bottom: 2px;
     right: 20px;
 }
 .button--author{
     display: flex;
     justify-content: space-between;
-    padding: 0 90px;
+    padding: 0 87px;
     position: relative;
-    bottom: 30px;
+    bottom: 8px;
 }
 button {
     cursor: pointer;
