@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 html {
     box-sizing: border-box;
 }
@@ -37,10 +38,12 @@ body {
 #quote--text {
     font-size: 2.75rem;
 }
-.long-quote{
+
+.long-quote {
     font-size: 2.2rem;
 }
-#quote{
+
+#quote {
     padding: 30px 20px 0;
     position: relative;
     bottom: 55px;
@@ -55,13 +58,15 @@ body {
     bottom: 2px;
     right: 20px;
 }
-.button--author{
+
+.button--author {
     display: flex;
     justify-content: space-between;
     padding: 0 87px 20px;
     position: relative;
     bottom: 8px;
 }
+
 button {
     cursor: pointer;
     font-size: 1.2rem;
@@ -72,19 +77,23 @@ button {
     background: #333;
     outline: none;
     padding: 0.5rem 1.8rem;
-    box-shadow: 0 0.3rem 9px rgba(0,0,0,.65);
+    box-shadow: 0 0.3rem 9px rgba(0, 0, 0, .65);
 }
-button:hover{
+
+button:hover {
     filter: brightness(120%);
 }
-button:active{
-    transform: translate(0,0.3rem);
-    box-shadow: 0 0.1rem 2px rgba(0,0,0,.65);
+
+button:active {
+    transform: translate(0, 0.3rem);
+    box-shadow: 0 0.1rem 2px rgba(0, 0, 0, .65);
 }
-.twitter--button:hover{
+
+.twitter--button:hover {
     color: #38a1f3;
 }
-.fa-twitter{
+
+.fa-twitter {
     font-size: 1.5rem;
 }
 
@@ -99,25 +108,31 @@ button:active{
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 
 @media screen and (max-width: 1000px) and (min-width: 628px ) {
-    .quote--text{
+    .quote--text {
         font-size: 2rem;
     }
-    .button--author{
+
+    .button--author {
         padding: 20px 30px 0;
     }
 }
 
 @media screen and (max-width: 628px) {
-    .quote--text{
+    .quote--text {
         font-size: 2rem;
     }
-    .button--author{
+
+    .button--author {
         padding: 20px 25px 0;
         top: 6px;
         min-height: 70px;
