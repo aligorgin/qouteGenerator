@@ -34,16 +34,17 @@ body {
     padding-left: 87px;
 }
 
-.quote--text {
+#quote--text {
     font-size: 2.75rem;
 }
 .long-quote{
-    font-size: 1.9rem;
+    font-size: 2.2rem;
 }
 #quote{
-    padding: 20px;
+    padding: 30px 20px 0;
     position: relative;
     bottom: 55px;
+
 }
 
 .quote--author {

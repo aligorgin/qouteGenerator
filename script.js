@@ -13,7 +13,10 @@ function loading(){
 
 // hide loading
 function complete(){
-    !loader.hidden ? quoteContainer.hidden = false : loader.hidden = true;
+    if (!loader.hidden){
+        quoteContainer.hidden= false;
+        loader.hidden=true;
+    }
 }
 
 
