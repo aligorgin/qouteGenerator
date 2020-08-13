@@ -118,24 +118,30 @@ button:active {
 
 
 @media screen and (max-width: 1000px) and (min-width: 628px ) {
-    .quote--text {
+    .fa-quote-left{
+        padding-left: 60px;
+    }
+
+    #quote--text {
         font-size: 2rem;
     }
 
     .button--author {
-        padding: 20px 30px 0;
+        padding: 20px 60px 20px;
     }
 }
 
 @media screen and (max-width: 628px) {
-    .quote--text {
+    .fa-quote-left{
+        padding-left: 25px;
+    }
+
+    #quote--text {
         font-size: 2rem;
     }
 
     .button--author {
-        padding: 20px 25px 0;
+        padding: 20px 25px 28px;
         top: 6px;
-        min-height: 70px;
-
     }
 }
